@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <iomanip>
+
 
 using namespace std;
 
@@ -25,7 +25,7 @@ int main() {
     double degB = acos((a * a + c * c - b * b) / (2.0 * a * c)) * 180.0 / PI;
     double degC = acos((a * a + b * b - c * c) / (2.0 * a * b)) * 180.0 / PI;
 
-    cout << fixed << setprecision(4);
+    
     cout << "S = " << S << "\n";
     cout << "r = " << r << "\n";
     cout << "R = " << R << "\n\n";
